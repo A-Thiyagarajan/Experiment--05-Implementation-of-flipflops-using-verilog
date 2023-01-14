@@ -1,13 +1,18 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
-### AIM:
+## AIM:
 Ref no: 22008681
 Nmae: A.Thiyagarajan
 
 To implement all the flipflops using verilog and validating their functionality using their functional tables
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
-### THEORY 
-SR Flip-Flop
+## HARDWARE REQUIRED:  
+PC, 
+Cyclone II and
+USB flasher
+## SOFTWARE REQUIRED:  
+Quartus prime
+## THEORY 
+### SR Flip-Flop
+
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
 ![image](https://user-images.githubusercontent.com/36288975/167910294-bb550548-b1dc-4cba-9044-31d9037d476b.png)
@@ -105,7 +110,7 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
+## Procedure
 
    1.Using nand gates and wires construct SR flipflop.
    
@@ -117,7 +122,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 
-### PROGRAM 
+## PROGRAM 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 ```
 i) SR FLIP FLOP:
@@ -169,28 +174,28 @@ nand (Q,A,Qbar);
 nand (Qbar,B,Q);
 endmodule
 ```
-### RTL LOGIC FOR FLIPFLOPS 
-#### SR flip flop
+## RTL LOGIC FOR FLIPFLOPS 
+### SR flip flop
 ![SR flip flop](https://user-images.githubusercontent.com/118707693/212383743-ef267f6c-2ad9-4278-bb64-ea4c091d00a1.png)
-#### D flip flop
+### D flip flop
 ![D flip flop](https://user-images.githubusercontent.com/118707693/212384082-29b1b98b-9123-414e-bfa8-c4b4ea6f7688.png)
-#### JK flip flop
+### JK flip flop
 ![JK flip flop](https://user-images.githubusercontent.com/118707693/212384398-b3e9480e-89bf-4fdf-9449-2a1f402adbf6.png)
-#### T flip flop
+### T flip flop
 ![T flip flop](https://user-images.githubusercontent.com/118707693/212384822-5b2c368d-659b-467f-8526-016f36f37826.png)
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
-#### SR flip flop
+## TIMING DIGRAMS FOR FLIP FLOPS 
+### SR flip flop
 
 ![SR flip flop td](https://user-images.githubusercontent.com/118707693/212385044-923459af-83c1-46a3-a369-e27bea4a527b.png)
-#### D flip flop
+### D flip flop
 ![D flip flop td](https://user-images.githubusercontent.com/118707693/212385255-4c010127-af73-4ecb-9276-2d43b8853081.png)
-#### JK flip flop
+### JK flip flop
 ![JK flip flop td](https://user-images.githubusercontent.com/118707693/212385404-2a04f6df-c6c8-427a-9ffa-80683898b6ed.png)
 
-#### T flip flop
+### T flip flop
 ![T FLIP FLOP TD](https://user-images.githubusercontent.com/118707693/212385533-532153f9-b753-4766-8a76-f49d989d4dd5.png)
 
 
-### RESULTS 
+## RESULTS 
 All the flipflops are implementde using verilog and their functionality has been validated using their functional tables.
