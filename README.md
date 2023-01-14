@@ -107,13 +107,13 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ### Procedure
 
-   1. Open Quartus II and select new project and choose the file location.
-   2. Module Declaration. Module should have the file name.
-   3. Declare Inputs and outputs.
-   4. Use assign declaration and wire to define the functionality of logic circuits.
-   5.  End the program with endmodule.
-   6. Run the program and choose RTL viewer to get RTL realization.
-
+   1.Using nand gates and wires construct SR flipflop.
+   
+   2.Repeat same steps to constuct JK,D,T flipflops
+   
+   3.find Rtl logic and timing diagram for all flipflops
+   
+   4.End the program.
 
 
 
